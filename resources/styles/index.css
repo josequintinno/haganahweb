@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "ChakraPetch";
+    src: url("../fonts/ChakraPetch/ChakraPetch-Bold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+#cabecalho .logomarca p {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0.4rem;
+    font-family: "ChakraPetch";
+}
+
+#cabecalho .menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+#cabecalho .menu ul li a:hover {
+    color: #76ABAE;
+    transition: color 0.3s ease-in-out;
+}
+
+#cabecalho .usuario {
+    text-align: center;
+}
+
+#cabecalho .usuario .perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho .usuario .perfil img {
+    border: #31363F solid 0.2rem;
+}
+
+#cabecalho .usuario .perfil div {
+    margin-left: 0.5rem;
+}
+
+#cabecalho .usuario .perfil div p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#cabecalho .usuario .perfil div span {
+    font-size: 14px;
+}
+
+.divisor {
+    border: solid 1px rgb(58, 58, 58);
+}
+
+#conteudo {
+    background-color: #222831;
+    color: #EEEEEE;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#conteudo .caixa {
+    width: 100%;
+    background-color: #31363F;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#conteudo .caixa .caixa-cabecalho p {
+    font-weight: bold;
+    margin-bottom: 1.7rem;
+}
+
+#conteudo .caixa .caixa-conteudo b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    margin-bottom: 1rem;
+}
+
+#conteudo .caixa .caixa-rodape .percentual {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1rem;
+}
+
+#conteudo .caixa .caixa-rodape .progresso {
+    width: 100%;
+    height: 10px;
+    background-color: #222831;
+    border-radius: 10px;
+}
+
+#conteudo .caixa .caixa-rodape .progresso div {
+    content: "";
+    width: 82%;
+    height: 10px;
+    background-color: #76ABAE;
+    border-radius: 10px;
+}
