@@ -24,6 +24,7 @@ li {
 
 body {
     font-family: "Montserrat";
+    background-color: #f5f7fa;
 }
 
 #cabecalho {
@@ -137,4 +138,62 @@ body {
     height: 10px;
     background-color: #76ABAE;
     border-radius: 10px;
+}
+
+#demonstrativos {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+#demonstrativos .caixa-conta-bancaria {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#demonstrativos .caixa-conta-bancaria .titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    /* border: red dashed 1px; */
+}
+
+#demonstrativos .caixa-conta-bancaria .titulo h6 {
+    font-size: 14px;
+}
+
+#demonstrativos .caixa-conta-bancaria .bancos {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+#demonstrativos .caixa-conta-bancaria .bancos .banco-informacao {
+    margin-left: 1rem;
+}
+
+#demonstrativos .caixa-conta-bancaria .bancos .banco-informacao p {
+    font-weight: bold;
+    width: 200px;
+}
+
+#demonstrativos .caixa-conta-bancaria .bancos .banco-informacao span {
+    color: #76ABAE;
+}
+
+#demonstrativos .caixa-conta-bancaria .bancos p:nth-child(3) {
+    margin-left: 13rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #315192;
+}
+
+#demonstrativos .caixa-transacoes-financeiras {
+
 }
